@@ -1,0 +1,32 @@
+To activate or deactivate a Magento model, you need to enable or disable the corresponding module to which the model belongs. Here's the process to activate or deactivate a Magento model:
+
+Identify the module: Determine the module to which the model belongs. The module typically has a registration.php file and is located in the app/code directory.
+
+Enable or disable the module: To activate or deactivate the module, you can use the command-line interface (CLI) or modify the app/etc/config.php file manually.
+
+a. CLI method:
+
+To enable the module, run the following command:
+
+bash
+Copy code
+php bin/magento module:enable Vendor_Module
+Replace Vendor_Module with the actual module name, like Magento_Catalog.
+
+To disable the module, run the following command:
+
+bash
+Copy code
+php bin/magento module:disable Vendor_Module
+Replace Vendor_Module with the actual module name.
+
+b. Manual method:
+
+Open the app/etc/config.php file.
+Locate the line corresponding to the module you want to activate or deactivate.
+Change the value from '0' to '1' to enable the module or vice versa to disable it.
+Clear caches: After enabling or disabling the module, it's important to clear the Magento caches to ensure the changes take effect. Run the following command:
+
+bash
+Copy code
+php bin/magento cache:clean
