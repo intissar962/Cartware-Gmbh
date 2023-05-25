@@ -1,0 +1,14 @@
+Official Adobe Commerce Developer documentation lists the following requirements for a Magento Open Source version 2.4 and higher:
+
+1. Composer 2
+
+2. MariaDB 10.4 or MySQL 8
+
+3. PHP 8.1
+
+4. nginx 1.18 or Apache server
+
+5. OpenSearch 1.2
+
+***************************************
+https://github.com/magento/magento2
