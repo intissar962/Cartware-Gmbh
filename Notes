@@ -1,0 +1,2 @@
+ERROR: for magento_db  Cannot start service magento_db: driver failed programming external connectivity on endpoint chaymaetest_magento_db_1 (1104a3a4cf48999661055f93656c7123099c7ae2fb1f616c6474617eb807a5b0): Bind for 0.0.0.0:33061 failed: port is already allocated
+Solution : https://stackoverflow.com/questions/39508018/docker-driver-failed-programming-external-connectivity-on-endpoint-webserver
